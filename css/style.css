@@ -1,0 +1,225 @@
+:root {
+    --titletext-color: #212121;
+    --p-color: #757575;
+    --hover-color: #2196F3;
+    --background-color: #ffffff;
+    --backgroundfilter-color: #EEEEEE;
+}
+
+body{
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+ul{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.secondary-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--titletext-color);
+}
+
+.logoweb{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logostudio{
+    color: #000000;
+}
+
+
+.navigation{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--titletext-color);
+}
+
+.navigation-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--titletext-color);
+}
+.navigation-link:hover,
+.navigation-link:focus{
+    color: var(--hover-color);
+}
+.current{
+   color: #2196F3;
+}
+
+.contact-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--p-color);
+}
+.contact-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contact-list:hover,
+.contact-list:focus,
+.contact-link:hover,
+.contact-link:focus,
+.header-contacts:hover,
+.header-contacts:focus{
+    color: var(--hover-color);
+}
+.header-contacts{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--p-color);
+}
+
+.hero{
+    
+    background-color: #2F303A;
+    text-align: center;
+}
+.herotext{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    color: #FFFFFF;
+    
+}
+
+.button{
+    font-family: inherit;
+    background: #2196F3;     
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    background: #188CE8;;
+}
+
+.benefits-titles{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--titletext-color);
+}
+.benefits-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-titles{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--titletext-color);
+}
+.ourteam{
+    background-color: #F5F4FA;
+}
+.ourteam-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+
+.filterbutton{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    color: var(--titletext-color);
+    cursor: pointer;
+}
+.filterbutton:hover,
+.filterbutton:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+ 
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logostudio {
+    color: #ffffff;}
+
+.logostudio-footer{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: white;
+}
+
+.allworks-titles{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--titletext-color);
+}
+
+.allworks-p{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+color: var(--p-color);
+}
