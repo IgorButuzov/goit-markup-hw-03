@@ -16,7 +16,10 @@ body{
 
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 
 .link{
     text-decoration: none;
@@ -39,6 +42,9 @@ ul{
     font-size: 36px;
     line-height: 1.16;
     color: var(--titletext-color);
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .logoweb{
@@ -109,11 +115,25 @@ ul{
         letter-spacing: 0.03em;
         color: var(--p-color);
 }
+.header-container {
+    outline: 2px solid tomato;
+    width: 1200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
 
 .hero{
     
+    width: 1600px;
+    height: 600px;
     background-color: #2F303A;
     text-align: center;
+    padding: 200px 0;
+    
 }
 .herotext{
     font-weight: 900;
@@ -124,7 +144,18 @@ ul{
     text-transform: uppercase;
     width: 696px;
     color: #FFFFFF;
-    
+        margin:0 auto;
+        
+       
+        
+        
+}
+.hero-container{
+    outline: 2px solid tomato;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .button{
@@ -136,6 +167,14 @@ ul{
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 10px 32px;
+    border: 0;
+    border-radius: 4px;
+    
+        
 }
 
 .button:hover,
@@ -143,6 +182,12 @@ ul{
     background: #188CE8;;
 }
 
+.benefits{
+    outline: 2px solid tomato;
+    width: 1170px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 .benefits-titles{
     font-weight: 700;
     font-size: 14px;
@@ -150,12 +195,28 @@ ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--titletext-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
 }
 .benefits-p{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+}
+.benefits-container{
+    outline: 2px solid tomato;
+    width: 270px;
+}
+
+.ourworks{
+    outline: 2px solid tomato;
+    width: 1170px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .ourteam-titles{
@@ -164,17 +225,28 @@ ul{
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--titletext-color);
+    margin: 0;
+    padding: 0;
 }
 .ourteam{
     background-color: #F5F4FA;
+    width: 1600px;
+    
 }
 .ourteam-p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
 }
-
+.ourteam-container{
+    outline: 2px solid tomato;
+    width: 1170px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
 .filterbutton{
     font-family: inherit;
@@ -195,6 +267,7 @@ ul{
  
 .footer{
     background-color: #2F303A;
+    width: 1600px;
 }
 
 .footer-logostudio {
@@ -207,6 +280,10 @@ ul{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: white;
+}
+.footer-container{
+    width: 1200px;
+    margin-left: 200px;
 }
 
 .allworks-titles{
@@ -223,3 +300,6 @@ font-size: 16px;
 line-height: 1.87;
 color: var(--p-color);
 }
+
+
+
