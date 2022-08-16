@@ -2,8 +2,14 @@
     --titletext-color: #212121;
     --p-color: #757575;
     --hover-color: #2196F3;
-    --background-color: #ffffff;
+    --textwhite-color: #ffffff;
     --backgroundfilter-color: #EEEEEE;
+       
+    --noname-color: #000000;
+    --noname-color: #F5F4FA;
+    --noname-color: #FFFFFF 60%;
+    --noname-color: #2F303A;
+    --noname-color: #ECECEC;
 }
 
 body{
@@ -14,12 +20,26 @@ body{
     letter-spacing: 0.03em;
 }
 
-ul{
+ul,h2,p{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1200px;
+}
 
 .link{
     text-decoration: none;
@@ -97,7 +117,7 @@ ul{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--textwhite-color);
 }
 .contact-list:hover,
 .contact-list:focus,
@@ -117,23 +137,15 @@ ul{
 }
 .header-container {
     outline: 2px solid tomato;
-    width: 1200px;
-    margin-left: 200px;
-    margin-right: 200px;
     
-    padding-left: 15px;
-    padding-right: 15px;
-
 }
 
 .hero{
-    
     width: 1600px;
     height: 600px;
     background-color: #2F303A;
     text-align: center;
     padding: 200px 0;
-    
 }
 .herotext{
     font-weight: 900;
@@ -143,12 +155,8 @@ ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     width: 696px;
-    color: #FFFFFF;
-        margin:0 auto;
-        
-       
-        
-        
+    color: var(--textwhite-color);
+    margin:0 auto;  
 }
 .hero-container{
     outline: 2px solid tomato;
@@ -165,16 +173,13 @@ ul{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--textwhite-color);
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    
     padding: 10px 32px;
     border: 0;
-    border-radius: 4px;
-    
-        
+    border-radius: 4px;  
 }
 
 .button:hover,
@@ -184,9 +189,6 @@ ul{
 
 .benefits{
     outline: 2px solid tomato;
-    width: 1170px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 .benefits-titles{
     font-weight: 700;
@@ -204,8 +206,6 @@ ul{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin: 0;
-    padding: 0;
 }
 .benefits-container{
     outline: 2px solid tomato;
@@ -214,9 +214,6 @@ ul{
 
 .ourworks{
     outline: 2px solid tomato;
-    width: 1170px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 .ourteam-titles{
@@ -225,8 +222,6 @@ ul{
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--titletext-color);
-    margin: 0;
-    padding: 0;
 }
 .ourteam{
     background-color: #F5F4FA;
@@ -238,17 +233,32 @@ ul{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    margin: 0;
-    padding: 0;
 }
 .ourteam-container{
     outline: 2px solid tomato;
-    width: 1170px;
-    margin-left: 200px;
-    margin-right: 200px;
+}
+.specialist {
+    outline: 2px solid tomato;
+    width: 270px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.example{
+outline: 2px solid tomato;
+width: 370px;
+outline: 2px solid tomato;
+}
+.exampletext{
+    outline: 2px solid tomato;
+    width: 322px;
+    height: 70px;
+    margin: 20px 24px;
+    display: inline-block;
 }
 
 .filterbutton{
+    display: inline-block;
+    outline: 2px solid tomato;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -258,11 +268,16 @@ ul{
     background-color: #F5F4FA;
     color: var(--titletext-color);
     cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    border-color: transparent;
+    padding: 6px 22px;
+    
 }
 .filterbutton:hover,
 .filterbutton:focus{
     background-color: #2196F3;
-    color: #FFFFFF;
+    color: var(--textwhite-color);
 }
  
 .footer{
@@ -271,7 +286,8 @@ ul{
 }
 
 .footer-logostudio {
-    color: #ffffff;}
+    color: var(--textwhite-color);
+}
 
 .logostudio-footer{
     font-family: 'Raleway';
@@ -279,13 +295,13 @@ ul{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: white;
-}
-.footer-container{
-    width: 1200px;
-    margin-left: 200px;
+    color: var(--textwhite-color);
 }
 
+.allworks{
+outline: 2px solid tomato;
+
+}
 .allworks-titles{
 font-style: normal;
 font-weight: 700;
@@ -298,7 +314,6 @@ color: var(--titletext-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
-color: var(--p-color);
 }
 
 
