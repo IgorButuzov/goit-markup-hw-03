@@ -148,6 +148,7 @@ img{
 .container-items{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .hero{
@@ -220,15 +221,10 @@ img{
 }
 .benefits-items{
     display: flex;
+    justify-content: space-between;
 }
 .benefits-container:not(:first-child){
     margin-left: 30px;
-}
-.benefits-container:first-child{
-    margin-left: 15px;
-}
-.benefits-container:last-child {
-    margin-right: 15px;
 }
 
 .ourteam-titles{
@@ -240,18 +236,12 @@ img{
 }
 .works-items{
     display: flex;
+    justify-content: space-between;
 }
 .works-item:not(:first-child) {
     margin-left: 30px;
 }
 
-.works-item:first-child {
-    margin-left: 15px;
-}
-
-.works-item:last-child {
-    margin-right: 15px;
-}
 .ourteam{
     background-color: #F5F4FA;
     width: 1600px;
@@ -273,34 +263,42 @@ img{
 .specialist:not(:first-child) {
     margin-left: 30px;
 }
-
-.specialist:first-child {
-    margin-left: 15px;
-}
-
-.specialist:last-child {
-    margin-right: 15px;
-}
 .specialists{
     display: flex;
+    justify-content: space-between;
 }
 
-
+.example-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .example{
-outline: 2px solid tomato;
 width: 370px;
 border: 1px solid var(--backgroundfilter-color);
+margin-left: 30px;
+margin-bottom: 30px;
 }
+.example:nth-child(3n+1){
+margin-left: 0;
+}
+.example:nth-child(n+7) {
+    margin-bottom: 0;}
 .exampletext{
-    outline: 2px solid tomato;
     width: 322px;
     height: 70px;
     margin: 20px 24px;
     display: inline-block;
 }
-
+.filterbuttons{
+    display: flex;
+    margin-bottom: 34px;
+    justify-content: center;
+}
+.filterbutton-item:not(:first-child) {
+    margin-left: 8px;
+}
 .filterbutton{
-    display: inline-block;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -314,7 +312,6 @@ border: 1px solid var(--backgroundfilter-color);
     border: 0;
     border-color: transparent;
     padding: 6px 22px;
-    
 }
 .filterbutton:hover,
 .filterbutton:focus{
@@ -369,10 +366,6 @@ display: block;
     color: var(--textwhite-color);
 }
 
-.allworks{
-outline: 2px solid tomato;
-
-}
 .allworks-titles{
 font-style: normal;
 font-weight: 700;
