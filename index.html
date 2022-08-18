@@ -20,8 +20,8 @@
         <a class="logoweb link" href="./index.html">Web<span class="logostudio">Studio</span>
         </a>
     
-        <nav>
-            <ul class="navigation">
+        <nav class="navigation">
+            <ul class="navigation-items">
                 <li><a class="navigation-link link current" href="./index.html">Студія</a></li>
                 <li><a class="navigation-link link" href="./portfolio.html">Портфоліо</a></li>
                 <li><a class="navigation-link link" href="">Контакти</a></li>
@@ -46,9 +46,10 @@
         </section>
     
     <!--Якості студії-->
-        <section class="benefits container section" >
-            <h2 class="visually-hidden">Якості</h2>
-            <ul class="benefits-items">
+        <section class="benefits section" >
+            <div class="container">
+                <h2 class="visually-hidden">Якості</h2>
+                <ul class="benefits-items">
                 <li class="benefits-container">
                     <h3 class="benefits-titles">Увага до деталей</h3>
                     <p class="benefits-p">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -65,43 +66,54 @@
                     <h3 class="benefits-titles">Сучасні технології</h3>
                     <p class="benefits-p">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </section>
 
     <!--Чим займаємось-->
-        <section class="ourworks container section">
+        <section class="ourworks section">
+            <div class="container">
             <h2 class="secondary-title">Чим ми займаємося</h2>
             <ul class="works-items">
                 <li class="works-item"><img src="./images/box1Sq.jpg" alt="обробка фотографій" width="370"></li>
                 <li class="works-item"><img src="./images/box2Sq.jpg" alt="погодження деталей з замовником" width="370"></li>
                 <li class="works-item"><img src="./images/box3Sq.jpg" alt="передача матеріалів замовнику" width="370"></li>
-            </ul>                     
+            </ul> 
+            </div>
         </section>
         
         <!--Наша команда-->
-        <section class="ourteam">
-            <div class="ourteam-container container section">
+        <section class="ourteam section">
+            <div class="container">
             <h2 class="secondary-title">Наша команда</h2>
             <ul class="specialists">
                 <li class="specialist">
                     <img src="./images/1IgorSq.jpg" alt="фото Ігор Дем'яненко" width="270">
+                    <div class="ourteamtext">
                     <h3 class="ourteam-titles">Ігор Дем'яненко</h3>
                     <p class="ourteam-p">Product Designer</p>
+                    </div>
                 </li>
                 <li class="specialist">
                     <img src="./images/2OlgaSq.jpg" alt="фото Ольга Рєпіна" width="270">
+                    <div class="ourteamtext">
                     <h3 class="ourteam-titles">Ольга Рєпіна</h3>
                     <p class="ourteam-p">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="specialist">
                     <img src="./images/3MykolaSq.jpg" alt="фото Микола Тарасов" width="270">
+                    <div class="ourteamtext">
                     <h3 class="ourteam-titles">Микола Тарасов</h3>
                     <p class="ourteam-p">Marketing</p>
+                    </div>
                 </li>
                 <li class="specialist">
                     <img src="./images/4MykhailoSq.jpg" alt="фото Михайло Єрмаков" width="270">
+                    <div class="ourteamtext">
                     <h3 class="ourteam-titles">Михайло Єрмаков</h3>
                     <p class="ourteam-p">UI Designer</p>
+                    </div>
                 </li>
             </ul>
             </div>
@@ -115,14 +127,16 @@
         </a>
         <address>
             <ul>
-                <li><a class="contact-link link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                <li class="contactlist-item"><a class="contact-link link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
                         rel="noopener noreferrer nofollow">
-                        м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li>
+                        м. Київ, пр-т Лесі Українки, 26</a>
+                    </li>
+                <li class="contactlist-item">
                     <a class="contact-list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li><a class="contact-list link" href="tel:+380961111111">+380961111111</a></li>
-            </ul>
+                <li class="contactlist-item"><a class="contact-list link" href="tel:+380961111111">+380961111111</a>
+                </li>
+                </ul>
         </address>
         </div>
     </footer>

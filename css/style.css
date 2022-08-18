@@ -25,15 +25,13 @@ ul,h2,p{
     margin: 0;
     padding: 0;
 }
-h3{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
 
 img{
     display: block;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 .section{
@@ -42,11 +40,10 @@ img{
 }
 
 .container{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .link{
@@ -87,17 +84,17 @@ img{
     color: #000000;
 }
 
-
 .navigation{
+margin-left: 93px;
+}
+.navigation-items{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--titletext-color);
     display: flex;
-    width: 281px;
-    margin-left: 93px;
-    justify-content: space-between;
+    gap: 50px;
 }
 
 .navigation-link{
@@ -130,7 +127,8 @@ img{
 }
 .header-contacts{
     display: flex;
-    margin-left: 344px;
+    margin-left: auto;
+    gap: 50px;
 }
 .header-mail,
 .header-tel{
@@ -143,9 +141,6 @@ img{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.header-tel{
-    margin-left: 50px;
-}
 .header-container{
     display: flex;
     border-bottom: 1px solid var(--headerline-color);
@@ -154,7 +149,6 @@ img{
 .container-items{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .hero{
@@ -226,13 +220,16 @@ img{
 .benefits-container:not(:first-child){
     margin-left: 30px;
 }
-
+.ourteamtext{
+    padding: 30px 0;
+}
 .ourteam-titles{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--titletext-color);
+    margin-top: 0;
 }
 .works-items{
     display: flex;
@@ -242,9 +239,6 @@ img{
     margin-left: 30px;
 }
 
-.ourteam{
-    background-color: #F5F4FA;
-}
 .ourteam-p{
     font-weight: 400;
     font-size: 16px;
@@ -253,25 +247,24 @@ img{
 }
 .specialist {
     width: 270px;
-    padding-bottom: 30px;
     text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .specialist:not(:first-child) {
     margin-left: 30px;
 }
 .specialists{
     display: flex;
-    justify-content: space-between;
 }
 
 .example-items{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .example{
 width: 370px;
-border: 1px solid var(--backgroundfilter-color);
 margin-left: 30px;
 margin-bottom: 30px;
 }
@@ -281,14 +274,13 @@ margin-left: 0;
 .example:nth-child(n+7) {
     margin-bottom: 0;}
 .exampletext{
-    width: 322px;
-    height: 70px;
-    margin: 20px 24px;
-    display: inline-block;
+    padding: 20px 24px;
+    border: 1px solid var(--backgroundfilter-color);
+    border-top: none;
 }
 .filterbuttons{
     display: flex;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 .filterbutton-item:not(:first-child) {
@@ -306,7 +298,6 @@ margin-left: 0;
     cursor: pointer;
     border-radius: 4px;
     border: 0;
-    border-color: transparent;
     padding: 6px 22px;
 }
 .filterbutton:hover,
@@ -349,9 +340,10 @@ display: block;
     letter-spacing: 0.03em;
     color: var(--p-color);
     display: block;
-    margin-top: 9px;
 }
-
+.contactlist-item{
+    margin: 9px 0;
+}
 .contact-link {
     font-style: normal;
     font-weight: 400;
@@ -367,6 +359,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2;
 color: var(--titletext-color);
+margin-bottom: 4px;
 }
 
 .allworks-p{
