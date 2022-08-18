@@ -33,7 +33,7 @@ h3{
 img{
     display: block;
     margin: 0;
-        padding: 0;
+    padding: 0;
 }
 
 .section{
@@ -45,6 +45,8 @@ img{
     margin-left: 200px;
     margin-right: 200px;
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .link{
@@ -104,6 +106,8 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--titletext-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .navigation-link:hover,
 .navigation-link:focus{
@@ -136,6 +140,8 @@ img{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--p-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-tel{
     margin-left: 50px;
@@ -152,10 +158,7 @@ img{
 }
 
 .hero{
-    width: 1600px;
-    height: 600px;
     background-color: #2F303A;
-    text-align: center;
     padding: 200px 0;
     
 }
@@ -163,19 +166,15 @@ img{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     width: 696px;
     color: var(--textwhite-color);
-    margin:0 auto;  
-}
-.hero-container{
-    width: 696px;
+    margin-top: 0;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    
 }
 
 .button{
@@ -187,11 +186,12 @@ img{
     letter-spacing: 0.06em;
     color: var(--textwhite-color);
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
     padding: 10px 32px;
     border: 0;
     border-radius: 4px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button:hover,
@@ -244,16 +244,12 @@ img{
 
 .ourteam{
     background-color: #F5F4FA;
-    width: 1600px;
-    
 }
 .ourteam-p{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-}
-.ourteam-container{
 }
 .specialist {
     width: 270px;
@@ -321,7 +317,6 @@ margin-left: 0;
  
 .footer{
     background-color: #2F303A;
-    width: 1600px;
     padding: 60px 0;
 }
 .footer-logoweb{
